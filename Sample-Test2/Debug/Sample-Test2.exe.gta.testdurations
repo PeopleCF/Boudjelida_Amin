@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\out\Sample-Test2\Debug\Sample-Test2.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="FactoryTest.getProcessor_InputA_GetAProcessor" Duration="1" />
+    <TestDuration Test="FactoryTest.getProcessor_InputB_GetBProcessor" Duration="1" />
+    <TestDuration Test="FactoryTest.getProcessor_InputC_GetCProcessor" Duration="1" />
+    <TestDuration Test="FactoryTest.getProcessor_WrongInput_GetNullPtr" Duration="1" />
+    <TestDuration Test="FileReadTest.readFile_FileUnavailable_CannotReadFile" Duration="3" />
+    <TestDuration Test="FileReadTest.readFile_UsualCase_Path" Duration="12" />
+    <TestDuration Test="FileWriterTest.writeFile_FileUnavailable_ReturnMinusOne" Duration="1" />
+    <TestDuration Test="FileWriterTest.writeFile_UsualCase_StringInFileIsOk" Duration="7" />
+    <TestDuration Test="ProcessorATest.Process_GetOneWordOnly_ReturnTheSameString" Duration="1" />
+    <TestDuration Test="ProcessorATest.Process_AUsualTest_ReturnInReverseOrder" Duration="1" />
+    <TestDuration Test="ProcessorATest.Process_NoWords_ReturnNothing" Duration="1" />
+    <TestDuration Test="ProcessorATest.Process_WordsOfNumbers_ReturnOk" Duration="1" />
+    <TestDuration Test="ProcessorBTest.Process_GetNothing_ReturnNothing" Duration="1" />
+    <TestDuration Test="ProcessorBTest.Process_AUsualTest_ReturnCommasReplacedWithDots" Duration="1" />
+    <TestDuration Test="ProcessorCTest.Process_GetNothing_ReturnNothing" Duration="1" />
+    <TestDuration Test="ProcessorCTest.Process_AUsualTest_ReturnCommasReplacedWithDots" Duration="1" />
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
